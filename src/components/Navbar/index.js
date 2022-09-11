@@ -1,4 +1,3 @@
-
 import React from 'react';
 import {
   Nav,
@@ -16,17 +15,17 @@ const Navbar = () => {
         <Bars />
   
         <NavMenu>
+          <NavLink to='/' activestyle="true">
+            Home
+          </NavLink>
           <NavLink to='/about' activestyle="true">
             About
           </NavLink>
           <NavLink to='/events' activestyle="true">
             Events
           </NavLink>
-          <NavLink to='/annual' activestyle="true">
-            Annual Report
-          </NavLink>
-          <NavLink to='/team' activestyle="true">
-            Teams
+          <NavLink to='/contactus' activestyle="true">
+            Contact Us
           </NavLink>
           <NavLink to='/blogs' activestyle="true">
             Blogs
