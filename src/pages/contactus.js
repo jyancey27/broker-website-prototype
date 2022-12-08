@@ -106,7 +106,7 @@ const ContactUs = () => {
               <input type='text' id='phoneNumber' name='phoneNumber' onChange={phoneNumberChange} value={phoneNumber} placeholder='Phone Number' maxLength='16'></input>
             </div>
             <div>
-              <input type='text' id='email' name='email' onChange={emailChange} value={email} placeholder='Email Address' data-required='true' maxLength='100' required></input>
+              <input type='text' id='email' name='email' onChange={emailChange} value={email} placeholder='Email Address' maxLength='100' required></input>
             </div>
             <div>
               <input type='text' id='reason' name='reason' onChange={reasonChange} value={reason} placeholder='Reason Why' maxLength='250' required></input>
