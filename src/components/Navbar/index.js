@@ -2,18 +2,15 @@ import React from 'react';
 import {
   Nav,
   NavLink,
-  Bars,
   NavMenu,
-  NavBtn,
-  NavBtnLink,
 } from './NavbarElements';
+import icon from './NavbarImage/AriaRealEstateImage.jpg';
   
 const Navbar = () => {
   return (
     <>
+    <img src={icon} style={{ justifyContent: 'left', position:'absolute', width: '135px', height: '125px'}} alt='Logo'></img>
       <Nav>
-        <Bars />
-  
         <NavMenu>
           <NavLink to='/' activestyle="true">
             Home
@@ -24,21 +21,13 @@ const Navbar = () => {
           <NavLink to='/events' activestyle="true">
             Events
           </NavLink>
+          <NavLink to='/houses' activestyle="true">
+            Houses
+          </NavLink>
           <NavLink to='/contactus' activestyle="true">
             Contact Us
           </NavLink>
-          <NavLink to='/blogs' activestyle="true">
-            Blogs
-          </NavLink>
-          <NavLink to='/sign-up' activestyle="true">
-            Sign Up
-          </NavLink>
-          {/* Second Nav */}
-          {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
         </NavMenu>
-        <NavBtn>
-          <NavBtnLink to='/signin'>Sign In</NavBtnLink>
-        </NavBtn>
       </Nav>
     </>
   );
