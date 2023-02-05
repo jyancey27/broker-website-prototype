@@ -17,11 +17,11 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path='/broker-website-prototype' exact element={<Home/>} />
-          <Route path='/broker-website-prototype/about' element={<About/>} />
-          <Route path='/broker-website-prototype/events' element={<Events/>} />
-          <Route path='/broker-website-prototype/contactus' element={<ContactUs/>} />
-          <Route path='/broker-website-prototype/houses' element={<Houses/>} />
+          <Route path='broker-website-prototype' exact element={<Home/>} />
+          <Route path='broker-website-prototype/about' element={<About/>} />
+          <Route path='broker-website-prototype/events' element={<Events/>} />
+          <Route path='broker-website-prototype/contactus' element={<ContactUs/>} />
+          <Route path='broker-website-prototype/houses' element={<Houses/>} />
         </Routes>
         <footer>
           <div className='bar'>
