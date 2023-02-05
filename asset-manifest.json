@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/broker-website-prototype/static/css/main.d1e069f6.css",
-    "main.js": "/broker-website-prototype/static/js/main.e7d9b0b3.js",
+    "main.js": "/broker-website-prototype/static/js/main.365b872d.js",
     "static/media/jennyRealtor.jpg": "/broker-website-prototype/static/media/jennyRealtor.8e7205de0e6339740300.jpg",
     "static/media/robRealtor.jpg": "/broker-website-prototype/static/media/robRealtor.a38afb02fdebe77b69e3.jpg",
     "static/media/hannahRealtor.jpg": "/broker-website-prototype/static/media/hannahRealtor.d827e248407c71dfe3cc.jpg",
     "static/media/AriaRealEstateImage.jpg": "/broker-website-prototype/static/media/AriaRealEstateImage.aa621c58807ec7ba87f4.jpg",
     "index.html": "/broker-website-prototype/index.html",
     "main.d1e069f6.css.map": "/broker-website-prototype/static/css/main.d1e069f6.css.map",
-    "main.e7d9b0b3.js.map": "/broker-website-prototype/static/js/main.e7d9b0b3.js.map"
+    "main.365b872d.js.map": "/broker-website-prototype/static/js/main.365b872d.js.map"
   },
   "entrypoints": [
     "static/css/main.d1e069f6.css",
-    "static/js/main.e7d9b0b3.js"
+    "static/js/main.365b872d.js"
   ]
 }
