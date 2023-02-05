@@ -125,7 +125,7 @@ const ContactUs = () => {
           </form>
         </div> <br></br>
       
-      <p>Phone Number: <strong>(208) 995-5454</strong></p>
+      <p>Phone Number: <strong>(208) 999-0000</strong></p>
       <p>Email: <strong>AbegglenRealtyLLC@gmail.com</strong></p>
       <p>Location: <strong>1234 Main St, Boise, ID</strong></p> <br></br>
       <p><strong>Hours Available</strong></p>
