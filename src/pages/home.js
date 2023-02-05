@@ -54,7 +54,7 @@ const Home = () => {
                     Address: 1124 E Cabin Rd, Boise, ID <br />
                     Price: $250,000 
                   </p>
-                  <a className="slideShowLink" href='http://localhost:3000/houses'>Go to</a>
+                  <a className="slideShowLink" href='https://jyancey27.github.io/broker-website-prototype/houses'>Go to</a>
                 </div>
               </div>
             </div>
@@ -69,7 +69,7 @@ const Home = () => {
                     Address: 2100 S Bannock St, Boise, ID <br />
                     Price: $500,000 
                   </p>
-                  <a className="slideShowLink" href='http://localhost:3000/houses'>Go to</a>
+                  <a className="slideShowLink" href='https://jyancey27.github.io/broker-website-prototype/houses'>Go to</a>
                 </div>
               </div>
             </div>
@@ -84,7 +84,7 @@ const Home = () => {
                     Address: 3521 N Sunrise Ct, Boise, ID <br />
                     Price: $1,000,000 
                   </p>
-                  <a className="slideShowLink" href='http://localhost:3000/houses'>Go to</a>
+                  <a className="slideShowLink" href='https://jyancey27.github.io/broker-website-prototype/houses'>Go to</a>
                 </div>
               </div>
             </div>

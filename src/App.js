@@ -17,16 +17,16 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path='/' exact element={<Home/>} />
-          <Route path='/about' element={<About/>} />
-          <Route path='/events' element={<Events/>} />
-          <Route path='/contactus' element={<ContactUs/>} />
-          <Route path='/houses' element={<Houses/>} />
+          <Route path='/broker-website-prototype' exact element={<Home/>} />
+          <Route path='/broker-website-prototype/about' element={<About/>} />
+          <Route path='/broker-website-prototype/events' element={<Events/>} />
+          <Route path='/broker-website-prototype/contactus' element={<ContactUs/>} />
+          <Route path='/broker-website-prototype/houses' element={<Houses/>} />
         </Routes>
         <footer>
           <div className='bar'>
             <div>
-              <p>Abegglen Realty LLC. © 2022 <a className="privacyPolicyLink" href='http://localhost:3000/about#privacypolicy'>Privacy Policy</a></p>
+              <p>Abegglen Realty LLC. © 2022 <a className="privacyPolicyLink" href='https://jyancey27.github.io/broker-website-prototype/about#privacypolicy'>Privacy Policy</a></p>
             </div>
           </div>
         </footer>
