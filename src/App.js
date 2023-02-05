@@ -26,7 +26,7 @@ function App() {
         <footer>
           <div className='bar'>
             <div>
-              <p>Abegglen Realty LLC. © 2022 <a className="privacyPolicyLink" href='https://jyancey27.github.io/broker-website-prototype/about'>Privacy Policy</a></p>
+              <p>Abegglen Realty LLC. © 2022 <a className="privacyPolicyLink" href='https://jyancey27.github.io/broker-website-prototype/'>Privacy Policy</a></p>
             </div>
           </div>
         </footer>
