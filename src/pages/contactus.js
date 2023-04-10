@@ -39,25 +39,24 @@ const ContactUs = () => {
     setDisabled(isDisabled => !isDisabled);
 
     if (user.email !== '' && user.email.includes('@') && user.reason !== '') {
-
       const reqBody = {
-      "firstName": user.firstName,
-      "lastName": user.lastName,
-      "phoneNumber": user.phoneNumber,
-      "email": user.email,
-      "reason": user.reason,
-      "preference": user.preference,
+        firstName: user.firstName,
+        lastName: user.lastName,
+        phoneNumber: user.phoneNumber,
+        email: user.email,
+        reason: user.reason,
+        preference: user.preference,
       };
 
       Axios.post("http://localhost:3002/postInfo", reqBody).then(() => {
         alert('Thank you for your interest! We will get to you as soon as possible!');
-        setDisabled(false);
+        setDisabled(isDisabled => !isDisabled);
         clearFields();
       });
     }
     else{
       alert('You must enter an email address and a reason why to submit.');
-      setDisabled(false);
+      setDisabled(isDisabled => !isDisabled);
     };
   }
 
